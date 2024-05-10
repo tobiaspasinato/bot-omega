@@ -1,6 +1,6 @@
 import bot from "@bot-whatsapp/bot";
 import delay from "../app";
-import flowMenuMain from "./flowMenuMain";
+import flowMenuMain from "./flowMenuMain.js";
 
 /*
 Mensaje de saludo predeterminado (solo inicia el bot con la palabra clave y lo redirecciona con el menu).
