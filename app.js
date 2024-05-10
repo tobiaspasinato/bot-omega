@@ -1,4 +1,4 @@
-//import "dotenv/config";
+import "dotenv/config";
 import bot from "@bot-whatsapp/bot";
 import QRPortalWeb from "@bot-whatsapp/portal";
 import BaileysProvider from "@bot-whatsapp/provider/baileys";
@@ -7,9 +7,9 @@ import flowBienvenidaMain from "./flowsMain/flowBienvenidaMain.js";
 import flowMenuMain from "./flowsMain/flowMenuMain.js";
 
 const GLOBAL_STATE = [];
-//export default function delay(ms) {
-//return new Promise(resolve => setTimeout(resolve, ms));
-//}
+export default function delay(ms) {
+return new Promise(resolve => setTimeout(resolve, ms));
+}
 const main = async () => {
 const adapterDB = new MockAdapter();
 const adapterFlow = bot.createFlow([
