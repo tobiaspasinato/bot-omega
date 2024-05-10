@@ -1,5 +1,4 @@
 import bot from "@bot-whatsapp/bot";
-import delay from "../app";
 import flowMenuMain from "./flowMenuMain.js";
 
 /*
